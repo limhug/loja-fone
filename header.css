@@ -27,3 +27,12 @@ a {
 a:last-child {
   margin-right: 0;
 }
+
+.btn-comprar {
+  background-color: #252c41;
+  color: #fff;
+  text-align: center;
+  font-family: Arial, "Roboto", sans-serif;
+  font-size: 20px;
+  padding: 17px 60px 21px 60px;
+}
