@@ -1,22 +1,29 @@
 header {
   background-color: #e24647;
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-}
-
-h1,
-a {
-  color: #ffffff;
+  color: #fff;
+  overflow: hidden;
+  margin: 0 115px;
+  padding: 55px 60px 95px;
 }
 
 h1 {
   font-size: 40px;
-  font-family: Arial, sans-serif;
+  font-family: Arial, "Roboto", sans-serif;
+  float: left;
+}
+
+nav {
+  font-size: 21px;
+  float: right;
 }
 
 a {
   text-decoration: none;
-  font-size: 21px;
-  font-family: "Segoe UI", sans-serif;
+  font-family: "Segoe UI", "Roboto", sans-serif;
+  color: inherit;
+  margin-right: 60px;
+}
+
+a:last-child {
+  margin-right: 0;
 }
