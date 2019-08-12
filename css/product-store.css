@@ -1,0 +1,16 @@
+.product-store {
+  float: left;
+  width: 600px;
+  height: 574px;
+  background-color: #fff;
+  margin-left: -60px;
+  border-radius: 0 120px 120px 0;
+  margin-right: 160px;
+}
+
+.image {
+  width: 547px;
+  height: 547px;
+  margin-left: 105px;
+  margin-top: 27px;
+}
