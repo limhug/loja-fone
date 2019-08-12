@@ -5,24 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Loja Fone</title>
-    <link rel="stylesheet" href="reset.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/container-store.css" />
+    <link rel="stylesheet" href="css/header-store.css" />
+    <link rel="stylesheet" href="css/buttom-store.css" />
+    <link rel="stylesheet" href="css/description-store.css" />
   </head>
   <body>
-    <div class="main">
-      <header>
-        <h1>LOGO</h1>
-        <nav>
-          <a href="#">Produtos</a>
-          <a href="#">Serviços</a>
-          <a href="#">Carrinho (10)</a>
+    <div class="container-store">
+      <header class="header-store">
+        <h1 class="title">LOGO</h1>
+        <nav class="navigation">
+          <a class="action" href="#">Produtos</a>
+          <a class="action" href="#">Serviços</a>
+          <a class="action last" href="#">Carrinho (10)</a>
         </nav>
       </header>
+
+      <dl class="description-store">
+        <dt class="title">Fone top, feliz e caro</dt>
+        <dd class="rating">4.0 (97)</dd>
+        <dd class="delivery">Frete <strong class="value">C$ 108</strong></dd>
+        <dd class="price">Preço <strong class="value">C$ 340</strong></dd>
+        <dd class="description">Fone TOP com um cor feliz que não tem fio. A cor também é algo que impressiona junto com o seu layout modernão! Ele é caro? É! Mas compre que você não vai se arrepender e se você se arrepender pode vender no mercado livre..kkkk</dd>
+        <dd class="view-more"><a class='link' href="">Saber mais...</a></dd>
+        <dd class='buy-buttom'><buttom class="button-store -second" alt="Adicionar ao Carrinho">Adicionar ao Carrinho</buttom></dd>
+        <dd class="buy-buttom"><buttom class="button-store" href="#" alt="Comprar">Comprar</a></dd>
+      </dl>
+      
     </div>
-    <a class="btn-comprar" href="#" alt="Comprar">Comprar</a>
   </body>
 </html>
