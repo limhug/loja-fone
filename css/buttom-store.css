@@ -20,3 +20,16 @@
   width: 218px;
   line-height: 56px;
 }
+
+.button-store > button,
+.button-store > a {
+  background-color: inherit;
+  color: inherit;
+  font-size: inherit;
+  font-family: inherit;
+  text-decoration: inherit;
+}
+
+.button-store.-last {
+  margin-left: 38px;
+}

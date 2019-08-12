@@ -1,60 +1,65 @@
 .description-store {
   font-family: "Roboto", sans-serif;
   color: #ffffff;
+  display: inline-block;
+  vertical-align: top;
+  width: 554px;
+  margin-top: 43px;
 }
 
-.title {
+.description-store > .title {
   font-size: 25px;
 }
 
-.rating {
+.description-store > .item {
   font-size: 20px;
-  margin-top: 100px;
-  ml10
 }
 
-.delivery {
-  font-size: 20px;
+.description-store .item.rating {
+  margin-top: 100px;
+  margin-left: 10px;
+}
+
+.description-store .item.delivery {
   margin-top: 28px;
   text-transform: uppercase;
 }
 
-.price {
-  font-size: 20px;
+.description-store .item.price {
   margin-top: 26px;
   text-transform: uppercase;
 }
 
-.value {
+.description-store .value {
   margin-left: 82px;
 }
 
-.price .value {
+.description-store .price .value {
   margin-left: 77px;
 }
 
-.description {
+.description-store > .description {
   font-size: 18px;
   margin-top: 75px;
   line-height: 30px;
 }
 
-.view-more {
+.description-store > .view-more {
   color: inherit;
   margin-top: 28px;
   margin-bottom: 100px;
 }
 
-.link{
+.description-store .link {
   font-size: 18px;
   text-decoration: none;
   color: inherit;
 }
 
-.buy-buttom{
+.description-store .buy-buttom {
   display: inline;
 }
 
-.buy-buttom.-right{
+.description-store .buy-buttom.-right {
   margin-left: 40px;
 }
