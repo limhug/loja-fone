@@ -11,12 +11,25 @@
   font-size: 25px;
 }
 
+.description-store > .star {
+  margin-top: 50px;
+}
+
+.description-store .star .item {
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.description-store .star .item.-last {
+  margin-right: 0;
+}
+
 .description-store > .item {
   font-size: 20px;
 }
 
 .description-store .item.rating {
-  margin-top: 100px;
+  margin-top: 25px;
   margin-left: 10px;
 }
 
