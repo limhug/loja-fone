@@ -50,3 +50,11 @@
   text-decoration: none;
   color: inherit;
 }
+
+.buy-buttom{
+  display: inline;
+}
+
+.buy-buttom.-right{
+  margin-left: 40px;
+}
