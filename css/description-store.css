@@ -26,6 +26,7 @@
 
 .description-store .star {
   margin-right: 8px;
+  cursor: pointer;
 }
 
 .description-store .star.-last {
