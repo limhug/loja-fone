@@ -11,6 +11,36 @@
   text-transform: uppercase;
 }
 
+.header-store > .search-store {
+  display: inline-block;
+  position: relative;
+  width: 358px;
+  margin-left: 360px;
+}
+
+.header-store .input {
+  box-sizing: border-box;
+  background-color: transparent;
+  width: 100%;
+  height: 35px;
+  border: 0;
+  outline: 0;
+  padding: 0 7px;
+  border-bottom: 1px solid #fff;
+  color: inherit;
+  font-size: 20px;
+  font-family: Arial, "Roboto", sans-serif;
+}
+
+.header-store .input::placeholder {
+  color: inherit;
+}
+
+.header-store .buttom-submit {
+  position: absolute;
+  opacity: 0;
+}
+
 .header-store > .navigation {
   font-size: 21px;
   float: right;
