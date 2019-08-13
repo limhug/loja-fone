@@ -22,11 +22,8 @@
     <div class="container-store">
       <header class="header-store">
         <h1 class="title">Logo</h1>
-        <fieldset class="search-store">
-          <input class="input" type="text" placeholder="Busca" />
-          <button class="buttom-submit" type="buttom">Enviar</button>
-        </fieldset>
         <nav class="navigation">
+          <input class="search" type="search" placeholder="Busca" />
           <a class="action" href="#">Produtos</a>
           <a class="action" href="#">Serviços</a>
           <a class="action -last" href="#">Carrinho (10)</a>
@@ -43,24 +40,12 @@
 
       <dl class="description-store">
         <dt class="title">Fone top, feliz e caro</dt>
-        <dd class="star">
-          <ul class="list">
-            <li class="item">
-              <img src="/image/star.png" alt="Estrela preenchida" />
-            </li>
-            <li class="item">
-              <img src="/image/star.png" alt="Estrela preenchida" />
-            </li>
-            <li class="item">
-              <img src="/image/star.png" alt="Estrela preenchida" />
-            </li>
-            <li class="item">
-              <img src="/image/star.png" alt="Estrela preenchida" />
-            </li>
-            <li class="item -last">
-              <img src="/image/star-vazia.png" alt="Estrela vazia" />
-            </li>
-          </ul>
+        <dd class="item -star">
+          <img class="star" src="/image/star.png" alt="Estrela" />
+          <img class="star" src="/image/star.png" alt="Estrela" />
+          <img class="star" src="/image/star.png" alt="Estrela" />
+          <img class="star" src="/image/star.png" alt="Estrela" />
+          <img class="star -last" src="/image/star-vazia.png" alt="Estrela" />
         </dd>
         <dd class="item rating">4.0 (97)</dd>
         <dd class="item delivery">
@@ -74,17 +59,16 @@
           mercado livre..kkkk
         </dd>
         <dd class="view-more"><a class="link" href="">Saber mais...</a></dd>
+        <div class="buttons">
+          <buttom
+            type="buttom"
+            class="button-store -second"
+            alt="Adicionar ao Carrinho"
+            >Adicionar ao Carrinho</buttom
+          >
+          <a class="button-store -last" href="#" alt="Comprar">Comprar</a>
+        </div>
       </dl>
-
-      <div class="buttons">
-        <buttom
-          type="buttom"
-          class="button-store -second"
-          alt="Adicionar ao Carrinho"
-          >Adicionar ao Carrinho</buttom
-        >
-        <a class="button-store -last" href="#" alt="Comprar">Comprar</a>
-      </div>
     </div>
   </body>
 </html>
