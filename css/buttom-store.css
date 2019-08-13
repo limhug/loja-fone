@@ -1,3 +1,9 @@
+.buttons {
+  float: right;
+  width: 636px;
+  margin-top: 70px;
+}
+
 .button-store {
   display: inline-block;
   box-sizing: border-box;
