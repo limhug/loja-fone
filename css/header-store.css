@@ -42,17 +42,30 @@
 }
 
 .header-store .action {
+  position: relative;
   text-decoration: none;
   font-family: "Segoe UI", "Roboto", sans-serif;
   color: inherit;
   margin-right: 60px;
+  transition: all 0.1s linear;
 }
 
 .header-store .action.-last {
   margin-right: 0;
 }
 
-.header-store .action:hover {
-  padding-bottom: 5px;
-  border-bottom: 1px solid #ffffff;
+.header-store .action::after {
+  content: "";
+  position: absolute;
+  height: 1px;
+  width: 0;
+  bottom: -5px;
+  left: 0%;
+  background-color: #ffffff;
+  transition: width 0.3s ease, left 0.3s ease;
+}
+
+.header-store .action:hover::after {
+  width: 100%;
+  left: 0;
 }
