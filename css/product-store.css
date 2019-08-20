@@ -20,4 +20,10 @@
   position: absolute;
   top: 52px;
   right: -110px;
+  transition: all 0.1s linear;
+  cursor: pointer;
+}
+
+.product-store > .heart:hover {
+  transform: scale(1.25);
 }

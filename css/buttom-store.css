@@ -16,11 +16,16 @@
   height: 60px;
   border: none;
   cursor: pointer;
+  transition: all 0.1s linear;
 }
 
 .button-store:hover {
   background-color: #fff;
   color: #252c41;
+}
+
+.button-store:active {
+  transform: scale(0.95);
 }
 
 .button-store.-second {

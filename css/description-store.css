@@ -27,6 +27,11 @@
 .description-store .star {
   margin-right: 8px;
   cursor: pointer;
+  transition: all 0.1s linear;
+}
+
+.description-store .star:hover {
+  transform: scale(1.2);
 }
 
 .description-store .star.-last {
