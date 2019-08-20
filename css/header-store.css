@@ -51,3 +51,8 @@
 .header-store .action.-last {
   margin-right: 0;
 }
+
+.header-store .action:hover {
+  padding-bottom: 5px;
+  border-bottom: 1px solid #ffffff;
+}
