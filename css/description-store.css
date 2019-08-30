@@ -18,8 +18,12 @@
 }
 
 .description-store > .heart:hover {
-  transform: scale(1.25);
+  transform: scale(1.2);
   margin-left: -32px;
+}
+
+.description-store > .heart.-active {
+  background-image: url(/image/heart-active.png);
 }
 
 .description-store > .title {

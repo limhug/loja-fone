@@ -1,8 +1,11 @@
 const $buttonAdicionar = document.querySelector(".-second");
-const $linkCarrinho = document.querySelector(".navigation .-last");
 
 $buttonAdicionar.addEventListener("click", handleAdd);
 
+let valorInicial = 0;
+
 function handleAdd() {
-  $linkCarrinho.innerHTML = "Adicionou!";
+  const $linkCarrinho = document.querySelector(".navigation .-last .value");
+
+  $linkCarrinho.textContent = ++valorInicial;
 }
