@@ -16,14 +16,30 @@
   margin-top: 27px;
 }
 
-.product-store > .heart {
-  position: absolute;
-  top: 52px;
-  right: -110px;
-  transition: all 0.1s linear;
-  cursor: pointer;
+@media (max-width: 1360px) {
+  .product-store {
+    margin-right: 100px;
+  }
 }
 
-.product-store > .heart:hover {
-  transform: scale(1.25);
+@media (max-width: 1300px) {
+  .product-store {
+    width: 100%;
+    height: auto;
+    border-radius: 0;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .product-store > .image {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 570px) {
+  .product-store > .image {
+    width: 100%;
+    height: auto;
+  }
 }
