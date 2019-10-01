@@ -23,7 +23,7 @@
 }
 
 .description-store > .heart.-active {
-  background-image: url(/image/heart-active.png);
+  background-image: url("/image/heart-active.png");
 }
 
 .description-store > .title {
@@ -47,6 +47,10 @@
   margin-right: 8px;
   cursor: pointer;
   transition: all 0.1s linear;
+}
+
+.description-store .star.-active {
+  background-image: url("/image/star-active.png");
 }
 
 .description-store .star:hover {

@@ -22,12 +22,20 @@
       <header class="header-store">
         <h1 class="title">Logo</h1>
         <nav class="navigation">
-          <input class="search" type="search" placeholder="Busca" />
-          <a class="action" href="#">Produtos</a>
-          <a class="action" href="#">Serviços</a>
-          <a class="action -last" href="#">
-            Carrinho (<span class="value">0</span>)
-          </a>
+          <div class="box-search">
+            <input class="search" type="search" placeholder="Busca" />
+            <img class="icon-search -search -active" src="/image/icon-search.png" alt="Buscar" />
+            <img class="icon-search -close" src="/image/icon-close.png" alt="Fechar" />
+          </div>
+          <div class="menu">
+            <img class="icon -menu -active" src="/image/menu.svg" alt="Menu">
+            <img class="icon -close" src="/image/icon-close.png" alt="Fechar" />
+            <div class="links">
+              <a class="action" href="#">Produtos</a>
+              <a class="action" href="#">Serviços</a>
+              <a class="action -last" href="#">Carrinho (<span class="value">0</span>)</a>
+            </div>
+          </div>
         </nav>
       </header>
 
@@ -47,7 +55,7 @@
           <img class="star" src="/image/star.png" alt="Estrela" />
           <img class="star" src="/image/star.png" alt="Estrela" />
           <img class="star" src="/image/star.png" alt="Estrela" />
-          <img class="star -last" src="/image/star-vazia.png" alt="Estrela" />
+          <img class="star -last" src="/image/star.png" alt="Estrela" />
         </dd>
         <dd class="item rating">4.0 (97)</dd>
         <dd class="item delivery">
@@ -73,6 +81,7 @@
       </dl>
     </div>
 
+    <script src="js/header-store.js"></script>
     <script src="js/description-product.js"></script>
     <script src="js/buttom-store.js"></script>
   </body>
